@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CSharp_Projects\\Fish_Manage\\Fish_Manage\\wwwroot\\images\\b3019b38-056a-4f76-9bc8-b986e5715a43.png",
+      "PackagePath": "staticwebassets\\images\\b3019b38-056a-4f76-9bc8-b986e5715a43.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fish_Manage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fish_Manage.props",
+      "PackagePath": "build\\Fish_Manage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fish_Manage.props",
+      "PackagePath": "buildMultiTargeting\\Fish_Manage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fish_Manage.props",
+      "PackagePath": "buildTransitive\\Fish_Manage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

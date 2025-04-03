@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Fish_Manage.props" />
+</Project>

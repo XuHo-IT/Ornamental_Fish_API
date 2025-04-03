@@ -1,0 +1,6 @@
+@Fish_Manage_HostAddress = http://localhost:5082
+
+GET {{Fish_Manage_HostAddress}}/weatherforecast/
+Accept: application/json, text/plain
+
+###

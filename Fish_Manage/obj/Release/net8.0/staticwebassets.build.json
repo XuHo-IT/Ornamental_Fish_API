@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "qDSHc4csEkwqrrYAlN60KCwloODBQSMWgCccmJIelQo=",
+  "Source": "Fish_Manage",
+  "BasePath": "_content/Fish_Manage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Fish_Manage\\wwwroot",
+      "Source": "Fish_Manage",
+      "ContentRoot": "D:\\CSharp_Projects\\Fish_Manage\\Fish_Manage\\wwwroot\\",
+      "BasePath": "_content/Fish_Manage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\CSharp_Projects\\Fish_Manage\\Fish_Manage\\wwwroot\\images\\b3019b38-056a-4f76-9bc8-b986e5715a43.png",
+      "SourceId": "Fish_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CSharp_Projects\\Fish_Manage\\Fish_Manage\\wwwroot\\",
+      "BasePath": "_content/Fish_Manage",
+      "RelativePath": "images/b3019b38-056a-4f76-9bc8-b986e5715a43.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b3019b38-056a-4f76-9bc8-b986e5715a43.png"
+    }
+  ]
+}

@@ -1,5 +1,4 @@
-﻿using Fish_Manage.Service.Vosk;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Text.Json;
 using Vosk;
@@ -12,11 +11,13 @@ namespace Fish_Manage.Controllers
     {
         private readonly Model _model;
         private readonly SpkModel _spkModel;
+        private readonly IConfiguration _configuration;
 
-        public VoiceSearchController(VoskModelService modelService)
+        public VoiceSearchController(Model model, SpkModel spkModel, IConfiguration configuration)
         {
-            _model = modelService.SpeechModel;
-            _spkModel = modelService.SpeakerModel;
+            _model = model;
+            _spkModel = spkModel;
+            _configuration = configuration;
         }
 
         [HttpPost("recognize/bytes")]
@@ -35,7 +36,7 @@ namespace Fish_Manage.Controllers
             string wavFilePath = Path.ChangeExtension(tempFilePath, ".wav");
             var ffmpeg = new ProcessStartInfo
             {
-                FileName = @"E:\ffmpeg\ffmpeg-main\bin\ffmpeg.exe",
+                FileName = _configuration["Vosk:FFmpeg"],
                 Arguments = $"-i {tempFilePath} -ac 1 -ar 16000 -sample_fmt s16 {wavFilePath}",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,

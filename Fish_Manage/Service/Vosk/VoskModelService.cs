@@ -4,22 +4,27 @@ namespace Fish_Manage.Service.Vosk
 {
     public class VoskModelService
     {
+        private readonly IConfiguration _configuration;
         public Model SpeechModel { get; set; }
         public SpkModel SpeakerModel { get; set; }
 
-        public VoskModelService()
+        public VoskModelService(IConfiguration configuration)
         {
+            _configuration = configuration;
+
             try
             {
-                SpeechModel = new Model(@"E:\vosk\vosk-model-en-us-0.22");
-                SpeakerModel = new SpkModel(@"E:\vosk-spk\vosk-model-spk-0.4");
+                var speechModelPath = _configuration["Vosk:En-Us"];
+                var speakerModelPath = _configuration["Vosk:Model-spk"];
+
+                SpeechModel = new Model(speechModelPath);
+                SpeakerModel = new SpkModel(speakerModelPath);
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine($"Error initializing Vosk models: {ex.Message}");
                 throw;
             }
-
         }
     }
 }

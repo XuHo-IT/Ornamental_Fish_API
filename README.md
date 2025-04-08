@@ -11,7 +11,7 @@
 - 🎤 **Voice-based search** powered by Vosk
 - ✋ **Hand gesture recognition** to simplify the ordering process
 - 📦 Modular architecture with clean API design
-- 📚 API versioning and Swagger/OpenAPI integration
+- 📚 API versioning and Swagger
 
 ---
 
@@ -24,7 +24,6 @@
 - **Vosk Speech Recognition**
 - **Cloudinary for image hosting**
 - **NAudio for audio processing**
-- **Azure OpenAI for AI assistance**
 
 ---
 

@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Ornamental_Fish_BE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFA2634-BDA6-488F-A3B5-293F81C8E14C}|Fish_Manage\\Fish_Manage.csproj|e:\\ornamental_fish_be\\fish_manage\\controllers\\voicesearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFA2634-BDA6-488F-A3B5-293F81C8E14C}|Fish_Manage\\Fish_Manage.csproj|solutionrelative:fish_manage\\controllers\\voicesearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFA2634-BDA6-488F-A3B5-293F81C8E14C}|Fish_Manage\\Fish_Manage.csproj|e:\\ornamental_fish_be\\fish_manage\\service\\vosk\\voskmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFA2634-BDA6-488F-A3B5-293F81C8E14C}|Fish_Manage\\Fish_Manage.csproj|solutionrelative:fish_manage\\service\\vosk\\voskmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFA2634-BDA6-488F-A3B5-293F81C8E14C}|Fish_Manage\\Fish_Manage.csproj|e:\\ornamental_fish_be\\fish_manage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AFA2634-BDA6-488F-A3B5-293F81C8E14C}|Fish_Manage\\Fish_Manage.csproj|solutionrelative:fish_manage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +71,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VoiceSearchController.cs",
+              "DocumentMoniker": "E:\\Ornamental_Fish_BE\\Fish_Manage\\Controllers\\VoiceSearchController.cs",
+              "RelativeDocumentMoniker": "Fish_Manage\\Controllers\\VoiceSearchController.cs",
+              "ToolTip": "E:\\Ornamental_Fish_BE\\Fish_Manage\\Controllers\\VoiceSearchController.cs",
+              "RelativeToolTip": "Fish_Manage\\Controllers\\VoiceSearchController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:47:19.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoskModelService.cs",
+              "DocumentMoniker": "E:\\Ornamental_Fish_BE\\Fish_Manage\\Service\\Vosk\\VoskModelService.cs",
+              "RelativeDocumentMoniker": "Fish_Manage\\Service\\Vosk\\VoskModelService.cs",
+              "ToolTip": "E:\\Ornamental_Fish_BE\\Fish_Manage\\Service\\Vosk\\VoskModelService.cs",
+              "RelativeToolTip": "Fish_Manage\\Service\\Vosk\\VoskModelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:47:00.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Ornamental_Fish_BE\\Fish_Manage\\appsettings.json",
+              "RelativeDocumentMoniker": "Fish_Manage\\appsettings.json",
+              "ToolTip": "E:\\Ornamental_Fish_BE\\Fish_Manage\\appsettings.json",
+              "RelativeToolTip": "Fish_Manage\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T02:46:41.222Z",
+              "EditorCaption": ""
             }
           ]
         },
